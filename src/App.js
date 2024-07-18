@@ -5,6 +5,8 @@ import Herosec from "./components/Herosec";
 import soldiers from "./components/images/soldiers.jpg"
 import logo from "./components/images/logo.png";
 import Newshome from "./components/Newshome";
+import Scrollnews from "./components/Scrollnews";
+import Footer from "./components/Footer";
 
 const App = () => {
   return (
@@ -13,6 +15,8 @@ const App = () => {
         <Navbar logo={logo} />
         <Herosec image={soldiers} />
         <Newshome />
+        <Scrollnews/>
+        <Footer img={logo}/>
       </Styledbody>
     </>
   );
