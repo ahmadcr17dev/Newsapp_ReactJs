@@ -26,7 +26,7 @@ const Newshome = () => {
 
     const formattitle = (title) => {
         if (!title) {
-            return "US News Today";
+            return "Rolling Stone News Today....";
         }
         const words = title.split(" ");
         return words.slice(0, 7).join(" ");
@@ -34,7 +34,7 @@ const Newshome = () => {
 
     const formatdesc = (desc) => {
         if (!desc) {
-            return "Welcome to Rolling Stone where you can read best articles about US";
+            return "Welcome to Rolling Stone where you can read best articles....";
         }
         const words = desc.split(" ");
         return words.slice(0, 15).join(" ");

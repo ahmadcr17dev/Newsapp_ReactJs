@@ -9,13 +9,14 @@ import Scrollnews from "./components/Scrollnews";
 import Footer from "./components/Footer";
 
 const App = () => {
+
   return (
     <>
       <Styledbody>
         <Navbar logo={logo} />
         <Herosec image={soldiers} />
         <Newshome />
-        <Scrollnews/>
+        <Scrollnews />
         <Footer img={logo}/>
       </Styledbody>
     </>
